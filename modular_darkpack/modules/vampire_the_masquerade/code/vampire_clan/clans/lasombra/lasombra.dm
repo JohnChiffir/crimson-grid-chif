@@ -26,7 +26,7 @@
 	target.playsound_local(target, "modular_darkpack/modules/powers/sounds/daimonion_laughs/eldritchlaugh.ogg", 50, FALSE)
 	target.Paralyze(6 SECONDS)
 
-// Not TTRPG accurate and is pending a rework to use real rolls after #633
+/* // Not TTRPG accurate and is pending a rework to use real rolls after #633  // CRIMSON EDIT START — Lasombra The Decursening
 /proc/scramble_lasombra_message(message, mob/living/lasombra)
 	var/static/list/zalgo_letters = list(
 	"̨a", "̡b", "̢c", "̷d", "̶e", "̸f", "̹g", "̺h", "̻i",
@@ -49,3 +49,4 @@
 		else
 			gibberish_message += pick(zalgo_letters) // Replace with random gibberish letters
 	return gibberish_message
+*/ // CRIMSON EDIT END — Lasombra The Decursening
