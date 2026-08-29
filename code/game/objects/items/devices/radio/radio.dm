@@ -288,10 +288,10 @@
 	if(SEND_SIGNAL(src, COMSIG_RADIO_NEW_MESSAGE, talking_movable, message, channel) & COMPONENT_CANNOT_USE_RADIO)
 		return NONE
 
-	// DARKPACK EDIT ADD START
+/*	// CRIMSOM EDIT START - Lasombra The Decursening
 	if(talking_movable && HAS_TRAIT(talking_movable, TRAIT_REJECTED_BY_TECHNOLOGY))
 		message = scramble_lasombra_message(message, talking_movable)
-	// DARKPACK EDIT ADD END
+*/ 	// CRIMSOM EDIT END - Lasombra The Decursening
 
 	if(!spans)
 		spans = list(talking_movable.speech_span)
